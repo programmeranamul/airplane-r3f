@@ -4,9 +4,12 @@ import React from "react";
 import * as THREE from "three";
 
 function Background() {
+ 
+
   return (
     <>
       {/* <Environment preset="sunset" /> */}
+      <Environment preset="sunset" background />
       <Sphere scale={[100, 100, 100]}>
         <LayerMaterial
           lighting="physical"
